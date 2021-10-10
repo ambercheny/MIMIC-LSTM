@@ -2,7 +2,7 @@
 Topic: An LSTM prediction on ICU stay length based on patient glycemic control
 Database: https://physionet.org/content/glucose-management-mimic/1.0.1/ (1)
 
-### Aim of the final report
+### Aim of the project
 To predict ICU stay days based on patient demographics, glucose readings and insulin treatments.
 
 ### Database and preprocessing
@@ -10,7 +10,7 @@ For full code of data preprocessing, see Python Notebook, Preprocess.ipynb.
 
 MIMIC-III is a freely accessible critical care database, comprised of clinical data from patients admitted to Beth Israel Deaconess Medical Center in Boston, Massachusetts. Adult patients (aged 16 years or above) admitted to critical care units between 2001 and 2012 and neonates admitted between 2001 and 2008 were included (2)
 
-For this project, database Curated Data for Describing Blood Glucose Management in the Intensive Care Unit was used. The inclusion criteria for data curation process was published in February 2021 (1). The resulting database is uploaded online on Physionet (https://physionet.org/content/glucose-management- mimic/1.0.1/). Patients with glucose readings and insulin treatments were included. The final dataset glucose_insulin_pair.csv is used for this final project. Additionally, other attributes (ADMISSIONS_TYPE, GENDER, DOB, ICD9_CODE) are obtained from linking with MIMIC-III v.1.4 database directly (2, 3, 4).
+For this project, database Curated Data for Describing Blood Glucose Management in the Intensive Care Unit was used. The inclusion criteria for data curation process was published in February 2021 (1). The resulting database is uploaded online on Physionet (https://physionet.org/content/glucose-management- mimic/1.0.1/). Patients with glucose readings and insulin treatments were included. The final dataset glucose_insulin_pair.csv is used for this project. Additionally, other attributes (ADMISSIONS_TYPE, GENDER, DOB, ICD9_CODE) are obtained from linking with MIMIC-III v.1.4 database directly (2, 3, 4).
 
 ### Exploratory data analysis
 For full code of exploratory data analysis, see Python Notebook, EDA.ipynb.
